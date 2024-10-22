@@ -1,0 +1,32 @@
+/* WA Chat WP Plugin - Custom Styles */
+
+#wa-chat-button {
+    position: fixed;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+#wa-chat-button a {
+    background: #25D366;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease;
+}
+
+#wa-chat-button a:hover {
+    background: #1ebe57;
+}
+
+/* Posisi tombol berdasarkan pengaturan */
+#wa-chat-button.right {
+    right: 20px;
+}
+
+#wa-chat-button.left {
+    left: 20px;
+}
